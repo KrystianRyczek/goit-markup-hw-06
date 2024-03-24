@@ -29,17 +29,17 @@
             <li><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
-        <div class="hamburger-menu" id="hamburger-menu">
-           <div class="hamburger-line"></div>
-           <div class="hamburger-line"></div>
-           <div class="hamburger-line"></div>
-        </div>
+        <button class="hamburger-menu" id="hamburger-menu">
+          <svg width="24" height="24" class="hamburger-menu-icon">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
 <!-- HAMBURGER MENUE -->    
-          <div class="hamburger-menu-box a-hamburger-open" id="hamburger-menu-box">
+          <div class="hamburger-menu-box" id="hamburger-menu-box">
           <button class="hamburger-menu-button" type="button" id="hamburger-menu-button">
-            <div class="hamburger-menu-button-content">
-              X
-            </div>
+            <svg width="8" height="8" class="hamburger-menu-icon">
+              <use href="./images/icons.svg#icon-modal_close"></use>
+            </svg>
           </button>
           <ul class="hamburger-menu-nav">
             <li><a class="hamburger-menu-nav-studio" href="./index.html">Studio</a></li>
@@ -53,7 +53,7 @@
           <ul class="hamburger-menu-media-list">
             <li>
               <a href="https://www.w3schools.com/graphics/" target="_blank" class="hamburger-menu-media-icon-box">
-              <svg width="24" height="24" class="">
+                <svg width="24" height="24" class="">
                   <use href="./images/icons.svg#icon-instagram_24px"></use>
                 </svg>
               </a>
@@ -470,8 +470,8 @@
         </div>
       </div>
     </footer>
-   <div class="backdrop a-modal-open" id="backdrop">
-      <div class="modal a-modal-open" id="modal">
+   <div class="backdrop" id="backdrop">
+      <div class="modal" id="modal">
         <button class="modal-close-button" type="button" id="modal-close-button">
           <svg class="modal-close-button-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-modal_close"></use>
