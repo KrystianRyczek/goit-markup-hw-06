@@ -69,7 +69,7 @@
        screen and (min-resolutino: 2dppx) {
 .button-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-                      url(../images/background_button_desktop_1x.jpg);
+                      url(../images/background_button_desktop_2x.jpg);
 }}
 .button-heding {
     
@@ -329,7 +329,7 @@
        screen and (min-resolutino: 2dppx) {
 .button-section {
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-                      url(../images/background_button_tablet_1x.jpg);
+                      url(../images/background_button_tablet_2x.jpg);
 }}
 .button-heding {
     text-align: center;
@@ -683,7 +683,7 @@
        screen and (min-resolutino: 2dppx) {
 .button-section {
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-                      url(../images/background_button_mobil_1x.jpg);
+                      url(../images/background_button_mobil_2x.jpg);
 }}
 .button-heding {
     
