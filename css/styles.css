@@ -64,6 +64,13 @@
        padding: 188px 0;
     text-align: center;
 }
+@media screen and (min-device-pixel-ratio:2),
+       screen and (min-resolutino: 192dpi),
+       screen and (min-resolutino: 2dppx) {
+.button-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+                      url(../images/background_button_desktop_1x.jpg);
+}}
 .button-heding {
     
     text-align: center;
@@ -317,6 +324,13 @@
     padding: 106px 0; 
     text-align: center;
 }
+@media screen and (min-device-pixel-ratio:2),
+       screen and (min-resolutino: 192dpi),
+       screen and (min-resolutino: 2dppx) {
+.button-section {
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+                      url(../images/background_button_tablet_1x.jpg);
+}}
 .button-heding {
     text-align: center;
     letter-spacing: 0.02em;
@@ -664,6 +678,13 @@
     padding: 88px 0; 
     text-align: center;
 }
+@media screen and (min-device-pixel-ratio:2),
+       screen and (min-resolutino: 192dpi),
+       screen and (min-resolutino: 2dppx) {
+.button-section {
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+                      url(../images/background_button_mobil_1x.jpg);
+}}
 .button-heding {
     
     text-align: center;
@@ -1404,4 +1425,3 @@ div.modal-open{
     color: #4d5ae5;
     display: inline-flex;
 }
-
