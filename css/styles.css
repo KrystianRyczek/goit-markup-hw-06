@@ -6,6 +6,14 @@
    width: 1158px;
 }
 /* -----------------------------------HEADER----------------------------------- */
+.header {
+  display: flex;
+  max-width: 1440px;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .nav-list-layout {
      display: flex;
      align-items: center;
@@ -23,6 +31,17 @@
     list-style: none;
     /* resolution: 1158px; */
     gap: 40px;
+}
+.address-link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: flex;
+    gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .hamburger-menu{
     /* resolution: 768px 1158px */ 
@@ -52,7 +71,7 @@
 }
 /* ---------------------------1 ORDERING BUTTON SECTION--------------------------- */
 .button-section {
-    margin: 0 Auto;
+    margin: 0 auto;
     max-width: 1440px;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
@@ -96,6 +115,9 @@
     overflow: hidden;
 }
 /* ---------------------------2 UTILITYS SECTION--------------------------- */
+.utilities {
+    padding: 120px 0;
+}
 .utilities-list {
     padding: 0;
     margin: 0;
@@ -128,6 +150,14 @@
     font-weight: 500;
     line-height: 1.2;
 }
+.utilities-list-paragrafs {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-weight: 400;
+}  
 /* ---------------------------3 TEAM MEMBERS SECTION---------------------------  */
 .tema-list-layout {
     display: flex;
@@ -155,6 +185,12 @@
     width: 360px;
 }
 /* -----------------------------------FOOTER----------------------------------- */
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0;
+    margin: 0 auto;
+    max-width: 1440px;
+}
 .footer-disply-flex {
     display: flex;
     align-items: baseline;
@@ -174,7 +210,6 @@
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-
 }
 .footer-social-media-paragraf {
     margin: 0;
@@ -253,6 +288,14 @@
    width: 768px;
 }
 /* -----------------------------------HEADER----------------------------------- */
+.header {
+  display: flex;
+  max-width: 768px;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .nav-list-layout {
      display: flex;
      align-items: center;
@@ -271,6 +314,16 @@
     /* resolution: 768px; */
     flex-direction: column;
     row-gap: 10px;
+}
+.address-link {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: flex;
+    gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .hamburger-menu{
     /* resolution: 768px 1158px*/ 
@@ -312,8 +365,8 @@
 }
 /* ---------------------------1 ORDERING BUTTON SECTION--------------------------- */
 .button-section {
-    margin: 0 Auto;
-    max-width: 1440px;
+    margin: 0 auto;
+    max-width: 768px;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
                       url(../images/background_button_tablet_1x.jpg);
@@ -343,12 +396,15 @@
     max-width: 496px;
 }
 /* ---------------------------2 UTILITYS SECTION--------------------------- */
+.utilities {
+    padding: 96px 0;
+}
 .utilities-list {
     padding: 0;
     margin: 0;
     list-style-type: none;
     display: flex;
-    gap: 24px;
+    gap: 72px 24px;
     /* resolution: 768px 320px; */
     flex-wrap: wrap;
 }
@@ -380,6 +436,14 @@
     font-weight: 700;
 
 }
+.utilities-list-paragrafs {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-weight: 500;
+}  
 /* ---------------------------3 TEAM MEMBERS SECTION---------------------------  */
 .tema-list-layout {
     display: flex;
@@ -409,15 +473,21 @@
     width: 360px;
 }
 /* -----------------------------------FOOTER----------------------------------- */
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0;
+    margin: 0 auto;
+    max-width: 768px;
+}
 .footer-disply-flex {
     display: flex;
     align-items: baseline;
     /* resolution: 768px; */
     flex-wrap: wrap;
+    max-width: 530px;
 }
 .footer-logo-container {
     /* resolution: 768px; */
-    margin-left: 110px;
     margin-right: 24px;
 }
 .footer-logo {
@@ -445,7 +515,6 @@
 .footer-subscribe {
     /* resolution: 768px; */
     margin-top: 80px;
-    margin-left: 110px;
 }
 .subscribe-form {
      display: flex;
@@ -510,6 +579,14 @@
    width: 320px;
 }
 /* -----------------------------------HEADER----------------------------------- */
+.header {
+  display: flex;
+  max-width: 320px;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .nav-list-layout {
     /* resolution: 320px*/ 
     position: absolute;
@@ -541,9 +618,6 @@
     /* resolution: 320px*/
     margin: 0;
     padding: 0;
-    position: absolute;
-    right: 24px;
-    top: 24px;
     width: 24px;
     height: 24px;
     border:none;
@@ -666,8 +740,8 @@
 
 /* ---------------------------1 ORDERING BUTTON SECTION--------------------------- */
 .button-section {
-    margin: 0 Auto;
-    max-width: 1440px;
+    margin: 0 auto;
+    max-width: 320px;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
                       url(../images/background_button_mobil_1x.jpg);
@@ -698,6 +772,9 @@
     max-width: 216px;
 }
 /* ---------------------------2 UTILITYS SECTION--------------------------- */
+.utilities {
+    padding: 96px 0;
+}
 .utilities-list {
     padding: 0;
     margin: 0;
@@ -707,11 +784,7 @@
     flex-wrap: wrap;
     gap: 72px;
 }
-.utilities-item-list {
-    /* resolution: 320px; */
-        width: 282px;
 
-}
 .utilitis-icon-box{
     /* resolution: 768px; 320px*/ 
     position: absolute;
@@ -736,6 +809,14 @@
     font-weight: 700; 
     text-align: center;  
 }
+.utilities-list-paragrafs {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-weight: 500;
+}  
 /* ---------------------------3 TEAM MEMBERS SECTION---------------------------  */
 .tema-list-layout {
     display: flex;
@@ -764,6 +845,12 @@
     width: 288px;
 }
 /* -----------------------------------FOOTER----------------------------------- */
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0;
+    margin: 0 auto;
+    max-width: 320px;
+}
 .footer-disply-flex {
     display: flex;
     align-items: baseline;
@@ -871,6 +958,17 @@
 }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul, 
 a,
 body {
@@ -902,21 +1000,7 @@ img {
     padding: 0;
     list-style: none;
 }
-.main-flex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-}
 /* -----------------------------------HEADER----------------------------------- */
-.header {
-  display: flex;
-  min-width: 320px;
-  align-items: center;
-  margin: 0 auto;
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
 .logo-style {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
@@ -936,7 +1020,7 @@ img {
     
     margin-bottom: 15px;
     text-decoration: none;
-    font-family: "Raleway", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -968,17 +1052,6 @@ img {
 }
 .address-norm {
     font-style: normal;
-}
-.address-link {
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    display: flex;
-    gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 .address-link:hover {
     color:#404bbf;
@@ -1013,9 +1086,7 @@ img {
     
 }
 /* ---------------------------2 UTILITYS SECTION--------------------------- */
-.utilities {
-    padding: 120px 0;
-}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -1035,14 +1106,7 @@ img {
     justify-content: center;
     
 }
-
-.utilities-list-paragrafs {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}   
+ 
 /* ---------------------------3 TEAM MEMBERS SECTION---------------------------  */
 .team-section {
     
@@ -1180,10 +1244,7 @@ fill:#f4f4fd;
     margin:0 0 8px 0;
 }
 /* -----------------------------------FOOTER----------------------------------- */
-.footer{
-    background-color: #2e2f42;
-    padding: 100px 0;
-}
+
 .footer-logo-sufix {
     color: #f4f4fd;
 }
@@ -1301,7 +1362,7 @@ div.modal-open{
 }
 .modal-form-label {
     display: block;
-    margin: 0 Auto;
+    margin: 0 auto;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
