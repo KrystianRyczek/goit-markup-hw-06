@@ -192,8 +192,8 @@
     text-align: center;
 }
 @media screen and (min-device-pixel-ratio:2),
-       screen and (min-resolutino: 192dpi),
-       screen and (min-resolutino: 2dppx) {
+       screen and (min-resolution: 192dpi),
+       screen and (min-resolution: 2dppx) {
 .button-section {
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
                       url(../images/background_button_mobil_2x.jpg);
@@ -515,8 +515,8 @@
     text-align: center;
 }
 @media screen and (min-device-pixel-ratio:2),
-       screen and (min-resolutino: 192dpi),
-       screen and (min-resolutino: 2dppx) {
+       screen and (min-resolution: 192dpi),
+       screen and (min-resolution: 2dppx) {
 .button-section {
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
                       url(../images/background_button_tablet_2x.jpg);
@@ -603,7 +603,7 @@
     border-radius: 0px 0px 4px 4px;
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     /* resolution: 768px; */
-    width: calc((100% - 210px) / 2)
+    width: calc((100% - 220px) / 2)
 }
 /* ---------------------------4 PRODUCTS SECTION--------------------------- */
 .products{
@@ -726,7 +726,7 @@
   /* -----------------------------------HEADER----------------------------------- */
 .header {
   display: flex;
-  /* max-width: 1440px; */
+  max-width: 1440px;
   align-items: center;
   margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
@@ -813,8 +813,8 @@
     text-align: center;
 }
 @media screen and (min-device-pixel-ratio: 2),
-       screen and (min-resolutino: 192dpi),
-       screen and (min-resolutino: 2dppx) {
+       screen and (min-resolution: 192dpi),
+       screen and (min-resolution: 2dppx) {
 .button-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
                       url(../images/background_button_desktop_2x.jpg);
@@ -926,7 +926,7 @@
     background-color: #2e2f42;
     padding: 100px 0;
     margin: 0 auto;
-    /* max-width: 1440px; */
+    max-width: 1440px;
 }
 .footer-disply-flex {
     display: flex;
