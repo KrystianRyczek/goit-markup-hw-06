@@ -1,4 +1,4 @@
-# 🥬 Fresh Harvest Box
+# 🌟🌟WebStudio🌟🌟
 
 WebStudio is a project developed during the Fullstack Developer course at GoIT.
 WebStudio offer increase the flow of customers and sales for your business with digital marketing & growth solutions.
